@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="página web de contacto">
+    <meta name="robots" content="index,follow">
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style3.css">
+</head>
+<body>
+    <Header>
+        <nav></nav>
+    </Header>
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Nombre:</span>
+                <input type="text" id="nombre" placeholder="Tu nombre" autocomplete="name" required>
+            </label>
+            <label for="apellido" >
+                <span>Apellido:</span>
+                <input type="text" id="apellido" placeholder="Tu apellido" required>
+            </label>
+            <label for="celular">
+                <span>Celular:</span>
+                <input type="number" id="celular" placeholder="Número de celular" required>
+            </label>
+            <label for="correo">
+                <span>Correo:</span>
+                <input type="email" id="correo" placeholder="tu e-mail" autocomplete="email" required>
+            </label>
+            <label for="fecha">
+                <span>Fecha de cita:</span>
+                <input type="date" id="fecha">
+            </label>
+            <span>¿Cual transporte?</span>
+            <input list="transporte">
+            <datalist id="transporte">
+                <option value="Auto"></option>
+                <option value="Moto"></option>
+                <option value="Bicicleta"></option>
+            </datalist>
+            <input type="submit">
+        </form>    
+    </main>
+</body>
+</main>
+<footer>
+
+</footer>
+</html>
