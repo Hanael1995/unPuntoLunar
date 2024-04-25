@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="página web sobre fundamentos del web developer">
+    <meta name="robots" content="index,follow">
+    <title>Sobre CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style4.css">
+</head>
+<body class="body">
+    <Header class="header">
+        <section class="logo">
+            <figure class="logo-img">
+                <img src="" alt="">
+            </figure>
+        </section>
+        <nav>
+            <ul class="main-nav">
+                <li class="main-nav__iteam"><a href="">Home</a></li>
+                <li class="main-nav__iteam"><a href="">Conceptos</a></li>
+                <li class="main-nav__iteam"><a href="">webdeveloper</a></li>
+                <li class="main-nav__iteam"><a href="">contacto</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+    <H1>CSS (Cascading Style Sheets - Hojas de estilo en Cascada)</H1>
+    <p>CSS es un lenguaje de diseño gráfico usado para embellecer las webs (ponerle colores, efectos, diseños, etc).</p>
+    <H2>¿Cómo se controla el orden al declarar CSS?</H2>
+    <ul>
+        <li>Importancia</li>
+        <li>Especificidad</li>
+        <li>Orden en las Fuentes</li>
+    </ul>
+    <p>La importancia es uno de los conceptos más importantes, Si dos declaraciones tienen la misma importancia, la especificidad de las reglas decidirá cuál se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final.</p>
+    <H2>IMPORTANCIA</H2>
+    <p>Hace referencia a cual es la importancia que le da un navegador al CSS a la hora de aplicarlo. El navegador va a cargar los estilos de forma distinta, primero el navegador aplica sus estilos (estilos por defecto que el navegador posee para ciertas etiquetas HTML, esto se llama "Estilos del navegador"), Luego va a cargar nuestros estilos (los estilos que se hayan configurado en el proyecto web) y por ultimo va ha aplicar los estilos que vengan con un !important.</p>
+    <h2>ESPECIFICIDAD</h2>
+    <p></p>
+    <table>
+        <th>Tabla sobre selectores</th>
+        <tr>
+            <td><b>Selectores</b></td>
+            <td><b>Especificidad</b></td>
+        </tr>
+        <tr>
+            <td>!important</td>
+            <td>1,0,0,0,0</td>
+        </tr>
+        <tr>
+            <td>Inline Style</td>
+            <td>0,1,0,0,0</td>
+        </tr>
+        <tr>
+            <td>#id</td>
+            <td>0,0,1,0,0</td>
+        </tr>
+        <tr>
+            <td>.class</td>
+            <td>0,0,0,1,0</td>
+        </tr>
+        <tr>
+            <td>tag</td>
+            <td>0,0,0,0,1</td>
+        </tr>
+
+        <tr>
+
+        </tr>
+    </table>
+    <h2>ORDEN DE LAS FUENTES</h2>
+    <p></p>
+</body>
+</main>
+<footer>
+
+</footer>
+</html>
