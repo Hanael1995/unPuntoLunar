@@ -39,38 +39,72 @@
     <h2>ESPECIFICIDAD</h2>
     <p></p>
     <table>
+        <caption>De derecha a izquierda se muestra el nivel de importancia que el navegador le da a cada tipo selector CSS a la hora de ejecutar e implementarlo; osea 0 es menos importante y 1 es muy importante.</caption>
+        <caption><a href="https://www.codecaptain.io/tools/css-specificity-calculator">Clic aquí para ir a la calculara de especificidad</a></caption>
         <th>Tabla sobre selectores</th>
         <tr>
             <td><b>Selectores</b></td>
             <td><b>Especificidad</b></td>
+            <td><b>Descripción</b></td>
         </tr>
         <tr>
             <td>!important</td>
             <td>1,0,0,0,0</td>
+            <td>Es el más importante (no es muy buena practica usarlo.)</td>
         </tr>
         <tr>
             <td>Inline Style</td>
             <td>0,1,0,0,0</td>
+            <td>Son los estilos embebidos directamente en el HTML, es el segundo más importante. (tampoco es muy buena practica su uso)</td>
         </tr>
         <tr>
             <td>#id</td>
             <td>0,0,1,0,0</td>
+            <td>Estilo que se aplican a los id, es el tercero en importancia.</td>
         </tr>
         <tr>
             <td>.class</td>
             <td>0,0,0,1,0</td>
+            <td>Es el estilo que se le aplica a las clases, es el cuarto en importancia.</td>
         </tr>
         <tr>
             <td>tag</td>
             <td>0,0,0,0,1</td>
+            <td>Es el estilo aplicado a los selectores, como etiquetas de HTML, es el quinto en importancia.</td>
         </tr>
-
+    </table>
+    <h3>Reglas de cascada</h3>
+    <table>
+        <caption>Estas son las decisiones que toma el navegador al encontrar un conflicto con los estilos de CSS</caption>
         <tr>
-
+            <td><b>Conflicto en la declaración</b></td>
+            <td><b>Diferente origen o !important</b></td>
+            <td>no</td>
+            <td><b>¿Tiene algún Inline style?</b></td>
+            <td>no</td>
+            <td><b>¿Los selectores tienen una especificidad diferente?</b></td>
+            <td>no</td>
+            <td><b>Utiliza las declaraciones que vienen en su fuente original.</b></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>si</td>
+            <td></td>
+            <td>si</td>
+            <td></td>
+            <td>si</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Utiliza la declaración con el origen de mayor prioridad.</td>
+            <td></td>
+            <td>Utiliza las Inline declaration</td>
+            <td></td>
+            <td>Utiliza las declaraciones con mayor especificidad.</td>
         </tr>
     </table>
     <h2>ORDEN DE LAS FUENTES</h2>
-    <p></p>
+    <p>Es la forma en que nosotros mandamos a llamar a los estilos, CSS siempre va a empezar desde arriba hacia abajo y los estilo que siempre van a aplicar son los estilos que estén hasta abajo.Ejemplo: Si yo mando a llamar una clase arriba con ciertos estilos y luego vuelvo llamar esa clase abajo con otros estilos, se van a aplicar los de abajo. Esto es también aplicable al archivo de .css si hay un archivo de estilos abajo ese va aplicar los estilos por sobre los otros y si mandan a llamar los mismos estilos en ambos documentos siempre se aplicara el de abajo.</p>
 </body>
 </main>
 <footer>
