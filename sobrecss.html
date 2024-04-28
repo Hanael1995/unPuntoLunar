@@ -105,6 +105,26 @@
     </table>
     <h2>ORDEN DE LAS FUENTES</h2>
     <p>Es la forma en que nosotros mandamos a llamar a los estilos, CSS siempre va a empezar desde arriba hacia abajo y los estilo que siempre van a aplicar son los estilos que estén hasta abajo.Ejemplo: Si yo mando a llamar una clase arriba con ciertos estilos y luego vuelvo llamar esa clase abajo con otros estilos, se van a aplicar los de abajo. Esto es también aplicable al archivo de .css si hay un archivo de estilos abajo ese va aplicar los estilos por sobre los otros y si mandan a llamar los mismos estilos en ambos documentos siempre se aplicara el de abajo.</p>
+    <h2>Los combinadores (combinators)</h2>
+    <p>Nos permiten combinar múltiples selectores y crear una mayor especificidad. Estos combinadores nos ayudan a evitar el uso de #id </p>
+    <table>
+        <th>Combinadores</th>
+        <tr>
+            <td><b>Hermano adyacente o cercano (adjacent sibling)</b></td>
+            <td><b>Hermano general (general sibling)</b></td>
+            <td><b>Hijo</b></td>
+            <td><b>Descendiente</b></td>
+        </tr>
+        <tr>
+            <td>dv + p {...}</td>
+            <td>dv ~ p {...}</td>
+            <td>dv > p {...}</td>
+            <td>dv p {...}</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
     <h2>Generalidades y buenas practicas en CSS</h2>
     <ul>
         <li>El id es único; no pueden haber varios #id con el mismo nombre asignado a varias etiquetas o elementos del HTMl; por cada etiqueta o elemento no puedes tener más de 1 #id</li>
