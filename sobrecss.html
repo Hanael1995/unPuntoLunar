@@ -110,16 +110,25 @@
     <table>
         <th>Combinadores</th>
         <tr>
+            <td><b>CONCEPTO</b></td>
             <td><b>Hermano adyacente o cercano (adjacent sibling)</b></td>
             <td><b>Hermano general (general sibling)</b></td>
             <td><b>Hijo</b></td>
             <td><b>Descendiente</b></td>
         </tr>
         <tr>
+            <td><b>ESTRUCTURA</b></td>
             <td>dv + p {...}</td>
             <td>dv ~ p {...}</td>
             <td>dv > p {...}</td>
             <td>dv p {...}</td>
+        </tr>
+        <tr>
+            <td><b>DESCRIPCIÓN</b></td>
+            <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hermanos adyacentes a la etiqueta mencionada, en el siguiente ejemplo: (h2 + p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que estén al lado de un titulo (h2).</td>
+            <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hermanos generales a la etiqueta mencionada, en el siguiente ejemplo: (h2 ~ p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que que tengan un titulo (h2) como hermano general sin necesariamente estar uno al lado del otro.</td>
+            <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hijos directos de la etiqueta mencionada, en el siguiente ejemplo: (Div > p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que que tengan un div como padre. Si por ejemplo una etiqueta div posee dentro otra etiqueta, como un <article> y dentro del article hay una etiqueta párrafo entonces el estilo no se aplicara por que seria hijo de article no de div.</td>
+            <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser descendientes de la etiqueta mencionada, en el siguiente ejemplo: (.div p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que tengan una clase .div ya sea que este en un contenedor o en elemento, este es el combinador más usado.</td>
         </tr>
         <tr>
             <td></td>
