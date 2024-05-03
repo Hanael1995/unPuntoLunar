@@ -144,14 +144,17 @@
         <tr>
             <td><b>Absolutas</b></td>
             <td><b>Relativas</b></td>
+            <td><b>Descripción</b></td>
         </tr>
         <tr>
             <td>px</td>
             <td>em</td>
+            <td>Es un acrónimo de elemento, lo que hace es tomar el tamaño de su padre directo. Ejemplo: si el elemento de texto esta en un main, em tomara el tamaño de fuente que main tenga establecido; si no establecemos un tamaño de fuente al main, tomara por defecto el que tenga el HTML.</td>
         </tr>
         <tr>
             <td>mm (milímetros)</td>
             <td>rem (root em)</td>
+            <td>rem toma el tamaño del root del proyecto, osea del HTML del proyecto, el tamaño por defecto de HTML es 16px, por lo que 1rem siempre sera equivalente a 16px. Truco HTML {font-size: 62.5%} poniendo esta medida al inicio del código HTML podemos hacer que 1 rem valga 10 pixeles, de esta forma si queremos usar una medida ser fácil poner para 20px (2.0 rem) para 16px (1.6 rem), etc.</td>
         </tr>
         <tr>
             <td>cm (centímetros)</td>
