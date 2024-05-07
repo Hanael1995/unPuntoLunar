@@ -11,25 +11,22 @@ html {
 
 body {
     font-size: 1.6rem;
-    position: absolute;
 }
 
 .header {
     background-color: #cf2c1d;
-    width: 100%;
-    position: fixed;
-    bottom: 90%;
     z-index: 1000;
 }
 
 .menu {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-nav__iteam {
+    background-color: antiquewhite;
     color: black;
-    display: inline-block;
-    border: black solid px;
     margin: 1.0rem;
     padding: 1.0rem;
 }
@@ -55,7 +52,6 @@ body {
 }
 
 .title__first-subtitle {
-    background-color:
     margin: 0.5em;
     padding: 1rem;
     position: relative;
@@ -67,4 +63,12 @@ body {
     padding: 1rem;
     position: relative;
     top: 6rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #cf2c1d;
+    padding: 2rem;
+    position: relative;
+    top: 50px;
 }

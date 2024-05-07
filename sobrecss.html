@@ -15,11 +15,11 @@
                 <img src="" alt="">
             </figure>
         <nav class="menu">
-            <ul class="main-nav">
-                <li class="main-nav__iteam"><a href="">Home</a></li>
-                <li class="main-nav__iteam"><a href="">Conceptos</a></li>
-                <li class="main-nav__iteam"><a href="">webdeveloper</a></li>
-                <li class="main-nav__iteam"><a href="">contacto</a></li>
+            <ul class="main-nav menu">
+                <li class="main-nav__iteam menu"><a href="">Home</a></li>
+                <li class="main-nav__iteam menu"><a href="">Conceptos</a></li>
+                <li class="main-nav__iteam menu"><a href="">webdeveloper</a></li>
+                <li class="main-nav__iteam menu"><a href="">contacto</a></li>
             </ul>
         </nav>
     </section>
@@ -206,6 +206,16 @@
             <td></td>
         </tr>
     </table>
+    <h2>Display</h2>
+    <p></p>
+    <h3>Display Block</h3>
+    <p>Va a ocupar el 100% del width; por ejemplo si tienes dos textos con display block los textos se ubicaran uno debajo del otro porque cada uno ocupa el 100% del width</p>
+    <h3>Display Inline</h3>
+    <p>Va a ocupar el espacio que tenga su contenido, por ejemplo si tienes dos textos que tienen 2 caracteres cada uno, estos se ubicaran uno al lado del otro porque el display solo ocupa el tamaño del contenido, osea es del tamaño de los dos caracteres. En este display no se puede colocar margin o padding en la parte de arriba o abajo solo a los lados; tampoco se le puede dar un width o un height</p>
+    <h3>Display Inline-Block</h3>
+    <p>Va a tomar el mismo tamaño de su contenido, también se puede usar el width y el height Es una combinación entre block y inline, a este si se le puede añadir margin y padding</p>
+    <h3>Display Flex</h3>
+    <p>Es un display responsive, mucho más elástico</p>
     <h2>Generalidades y buenas practicas en CSS</h2>
     <ul>
         <li>El id es único; no pueden haber varios #id con el mismo nombre asignado a varias etiquetas o elementos del HTMl; por cada etiqueta o elemento no puedes tener más de 1 #id</li>
@@ -219,7 +229,9 @@
     <p><a href="https://github.com/Hanael1995/webcurso/tree/main/archivosdemos">Clic aquí para ver un ejemplo Código de ejemplo sobre buenas practicas en CSS entorno a la especificidad.</a></p>
 </body>
 </main>
-<footer>
-
+<footer class="footer">
+    <section class="footer-box">
+        <p class="footer-box__derechos">Derechos reservados</p>
+    </section>
 </footer>
 </html>
