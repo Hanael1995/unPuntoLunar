@@ -6,4 +6,69 @@
 
 html {
     font-size: 62.5%;
+    background-color: #e63727;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.header {
+    background-color: #cf2c1d;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-nav__iteam {
+    background-color: antiquewhite;
+    color: black;
+    margin: 1.0rem;
+    padding: 1.0rem;
+}
+
+.main-nav__iteam a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav__iteam a:hover {
+    color: rgb(233, 149, 23);
+}
+
+.main-nav__iteam a:active {
+    color: rgb(250, 246, 246);
+}
+
+.title {
+    color: white;
+    margin: 1.5rem;
+    padding: 1.0rem;
+    text-align: center;
+}
+
+.title__first-subtitle {
+    margin: 0.5em;
+    padding: 1rem;
+    position: relative;
+    top: 1.0rem;
+}
+
+.cuerpo {
+    margin: 2rem;
+    padding: 1rem;
+    position: relative;
+    top: 6rem;
+}
+
+.footer {
+    display: flex;
+    background-color: #cf2c1d;
+    padding: 2rem;
+    position: relative;
+    top: 50px;
 }

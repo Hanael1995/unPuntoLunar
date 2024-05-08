@@ -8,3 +8,6 @@ Metodología usada para CSS: BEM (Block, Element, Modifier)
 Medida de tamaños de fuente a usar en el proyecto: rem
 
 Método principal de display a utilizar en CSS: Flex
+
+Colores para el diseño del proyecto:
+#e63727
