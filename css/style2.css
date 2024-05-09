@@ -9,13 +9,24 @@ html {
     background-color: #e63727;
 }
 
-body {
+.body {
     font-size: 1.6rem;
 }
 
 .header {
     background-color: #cf2c1d;
     z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img img {
+    margin: 1rem;
+    height: 5rem;
 }
 
 .menu {
@@ -52,7 +63,7 @@ body {
 }
 
 .title__first-subtitle {
-    margin: 0.5em;
+    margin: 1rem;
     padding: 1rem;
     position: relative;
     top: 1.0rem;
@@ -62,7 +73,7 @@ body {
     margin: 2rem;
     padding: 1rem;
     position: relative;
-    top: 6rem;
+    top: 1rem;
 }
 
 .footer {
