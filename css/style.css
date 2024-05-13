@@ -16,13 +16,14 @@
 html {
     font-size: 62.5%;
     background-color: var(--primary-color);
+    height: 100%;
 }
 
 .body {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    font-size: var(--font-general)
+    justify-content: space-between;
+    font-size: var(--font-general);
 }
 
 .header {
@@ -35,6 +36,10 @@ html {
 .logo-img__logo {
     margin: 1rem;
     height: 5rem;
+}
+
+.cuerpo {
+    display: flex;
 }
 
 .main-nav {
@@ -74,12 +79,12 @@ html {
 .title__first-subtitle {
     margin: 1rem;
     padding: 1rem;
-    position: relative;
     font-size: var(--font-general);
 }
 
 .contenedor-padre {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: var(--secundary-color);
     width: 100%;
     padding: 1rem;
@@ -99,6 +104,8 @@ html {
 }
 
 .contenedor-box h3 {
+    display: flex;
+    width: 100%;
     background-color: var(--primary-color);
     border-radius: 1rem;
     margin: 1rem;
@@ -121,6 +128,4 @@ html {
     display: flex;
     background-color: var(--primary-color);
     padding: 2rem;
-    position: relative;
-    top: 1rem;
 }
