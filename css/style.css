@@ -4,6 +4,7 @@
     --first-font-color: #ffff;
     --font-general: 1.8rem;
     --font-title-size: 2.5rem;
+    --font-link-active: #dd9611;
 }
 
 * {
@@ -18,6 +19,9 @@ html {
 }
 
 .body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-size: var(--font-general)
 }
 
@@ -52,16 +56,11 @@ html {
 }
 
 .main-nav__iteam a:hover {
-    color: rgb(233, 149, 23);
+    color: var(--font-link-active);
 }
 
 .main-nav__iteam a:active {
     color: rgb(250, 246, 246);
-}
-
-.cuerpo {
-    position: relative;
-    top: 1rem;
 }
 
 .title {
@@ -80,9 +79,17 @@ html {
 }
 
 .contenedor-padre {
+    height: 100vh;
     background-color: var(--secundary-color);
     width: 100%;
     padding: 1rem;
+}
+
+.contenedor-h2__title {
+    display: flex;
+    justify-content: center;
+    color: var(--first-font-color);
+    padding: 1.5rem;
 }
 
 .contenedor-box {
@@ -93,22 +100,26 @@ html {
 
 .contenedor-box h3 {
     background-color: var(--primary-color);
-    color: var(--first-font-color);
     border-radius: 1rem;
     margin: 1rem;
     padding: 2rem;
 }
 
-.contenedor-h2__title {
-    display: flex;
-    justify-content: center;
+.contenedor-box a {
     color: var(--first-font-color);
-    padding: 1.5rem;
+}
+
+.contenedor-box a:hover {
+    color: var(--font-link-active);
+}
+
+.contenedor-box a:active {
+    color: var(--first-font-color);
 }
 
 .footer {
     display: flex;
-    background-color: #cf2c1d;
+    background-color: var(--primary-color);
     padding: 2rem;
     position: relative;
     top: 1rem;
