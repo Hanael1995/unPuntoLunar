@@ -4,6 +4,7 @@
     --first-font-color: #ffff;
     --font-general: 1.8rem;
     --font-title-size: 2.5rem;
+    --font-link-active: #dd9611;
 }
 
 * {
@@ -23,7 +24,7 @@ html {
 
 .header {
     z-index: 1000;
-    background-color: #e63727;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
 }
@@ -56,7 +57,7 @@ html {
 }
 
 .main-nav__iteam a:active {
-    color: rgb(250, 246, 246);
+    color: var(--first-font-color);
 }
 
 .cuerpo {
@@ -106,9 +107,16 @@ html {
     padding: 1.5rem;
 }
 
+.form label {
+    margin: 3rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
     display: flex;
-    background-color: #cf2c1d;
+    background-color: var(--primary-color);
     padding: 2rem;
     position: relative;
     top: 1rem;

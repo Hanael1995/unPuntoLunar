@@ -29,35 +29,35 @@
             <H1 class="title__first-title">Contactanos.</H1>
             <p class="title__first-subtitle">Deseas colocarte en contacto con nosotros? rellena el siguiente formulario.</p>
         </section>
-        <form action="">
-            <label for="nombre">
+        <form class="form" action="">
+            <label class="form-name" for="nombre">
                 <span>Nombre:</span>
                 <input type="text" id="nombre" placeholder="Tu nombre" autocomplete="name" required>
             </label>
-            <label for="apellido" >
+            <label class="form-last-name" for="apellido" >
                 <span>Apellido:</span>
                 <input type="text" id="apellido" placeholder="Tu apellido" required>
             </label>
-            <label for="celular">
+            <label class="form-phone" for="celular">
                 <span>Celular:</span>
                 <input type="number" id="celular" placeholder="Número de celular" required>
             </label>
-            <label for="correo">
+            <label class="form-mail" for="correo">
                 <span>Correo:</span>
                 <input type="email" id="correo" placeholder="tu e-mail" autocomplete="email" required>
             </label>
-            <label for="fecha">
+            <label class="form-date" for="fecha">
                 <span>Fecha de cita:</span>
                 <input type="date" id="fecha">
             </label>
-            <span>¿Cual transporte?</span>
+            <span class="form-transport">¿Cual transporte?</span>
             <input list="transporte">
             <datalist id="transporte">
                 <option value="Auto"></option>
                 <option value="Moto"></option>
                 <option value="Bicicleta"></option>
             </datalist>
-            <input type="submit">
+            <input class="form-submit" type="submit">
         </form>    
     </main>
     <footer class="footer">
