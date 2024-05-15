@@ -107,11 +107,34 @@ html {
     padding: 1.5rem;
 }
 
+.form {
+    background-color: var(--secundary-color);
+    margin: 2.0rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
 .form label {
     margin: 3rem;
     padding: 0.2rem;
-    display: flex;
-    flex-direction: column;
+}
+
+.form span {
+    padding: 0.5rem;
+    font-size: var(--font-title-size);
+
+}
+
+.form-submit {
+    color: var(--first-font-color);
+    background-color: var(--font-link-active);
+    padding: 2.2rem;
+}
+
+.form input {
+    padding: 1.2rem;
+    width: 100%;
 }
 
 .footer {
