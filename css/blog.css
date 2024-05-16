@@ -64,19 +64,26 @@ html {
     top: 1rem;
 }
 
-.title {
+.article {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-title {
     color: var(--first-font-color);
     font-size: var(--font-title-size);
-    margin: 0.5rem;
+    margin: 1.5rem;
     padding: 0.0rem;
     text-align: center;
 }
 
-.title__first-subtitle {
+.first-subtitle {
     margin: 1rem;
     padding: 1rem;
-    position: relative;
     font-size: var(--font-general);
+    color: var(--first-font-color);
+    text-align: center;
 }
 
 .contenedor-padre {
