@@ -109,32 +109,40 @@ html {
 
 .form {
     background-color: var(--secundary-color);
-    margin: 2.0rem;
-    padding: 1rem;
+    margin: 5rem;
     display: flex;
     flex-direction: column;
 }
 
 .form label {
-    margin: 3rem;
+    margin: 2rem;
     padding: 0.2rem;
 }
 
-.form span {
-    padding: 0.5rem;
-    font-size: var(--font-title-size);
+.form-message {
+    display: flex;
+    width: 100%;
+}
 
+.form span {
+    font-size: var(--font-title-size);
+    color: var(--first-font-color);
+
+}
+
+.form input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--font-general);
+    margin: 1rem;
+    padding: 1.2rem;
+    width: 100%;
 }
 
 .form-submit {
     color: var(--first-font-color);
     background-color: var(--font-link-active);
-    padding: 2.2rem;
-}
-
-.form input {
-    padding: 1.2rem;
-    width: 100%;
 }
 
 .footer {
