@@ -113,6 +113,21 @@ html {
     padding: 1.5rem;
 }
 
+.article-contenido {
+    display: flex;
+    flex-direction: column;
+    rad
+    margin: 2rem;
+    padding: 3rem;
+    background-color: var(--secundary-color);
+    border-radius: 3rem;
+}
+
+.title-h2-article {
+    text-align: center;
+    padding: 2rem;
+}                                                                                                                                                                                                                                                            
+
 .footer {
     display: flex;
     background-color: #cf2c1d;
