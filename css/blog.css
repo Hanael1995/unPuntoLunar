@@ -113,10 +113,30 @@ html {
     padding: 1.5rem;
 }
 
+.article {
+    display: flex;
+    margin: 3rem;
+}
+
+.article ol {
+    margin: 1.5rem;
+}
+
+.article-table {
+    width: 100%;
+    margin: 0.5rem;
+    border: #000000 0.2rem solid;
+    border-collapse: collapse;
+}
+
+.article-table td {
+    border: #000000 0.2rem solid;
+    padding: 0.5rem;
+}
+
 .article-contenido {
     display: flex;
     flex-direction: column;
-    rad
     margin: 2rem;
     padding: 3rem;
     background-color: var(--secundary-color);
@@ -126,7 +146,7 @@ html {
 .title-h2-article {
     text-align: center;
     padding: 2rem;
-}                                                                                                                                                                                                                                                            
+}
 
 .footer {
     display: flex;
