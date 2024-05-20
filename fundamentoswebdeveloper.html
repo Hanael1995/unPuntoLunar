@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/blog.css">
 </head>
-<body>
+<body class="body">
     <Header class="header">
         <section class="logo">
             <figure class="logo-img">
@@ -16,59 +16,69 @@
             </figure>
         </section>
         <nav class="menu">
-            <ul class="main-nav menu">
-                <li class="main-nav__iteam menu"><a href="./index.html">Home</a></li>
-                <li class="main-nav__iteam menu"><a href="">Recursos</a></li>
-                <li class="main-nav__iteam menu"><a href="">Blog</a></li>
-                <li class="main-nav__iteam menu"><a href="">contacto</a></li>
+            <ul class="main-nav">
+                <li class="main-nav__iteam"><a href="./index.html">Home</a></li>
+                <li class="main-nav__iteam"><a href="">Recursos</a></li>
+                <li class="main-nav__iteam"><a href="">Blog</a></li>
+                <li class="main-nav__iteam"><a href="">contacto</a></li>
             </ul>
         </nav>
     </Header>
     <main class="cuerpo">
-        <section class="title">
-            <H1 class="title__first-title">Fundamentos del Web developer</H1>
-            <p class="title__first-subtitle">Conceptos basicos y fundamentos necesarios para el web developer (desarrollador web)</p>
-        </section>
-    <h1></h1>
-    <h2>Perfiles de un web developer</h2>
-    <h3>Front-end</h3>
-    <figure>
-        <img src="./imagenes/front_end.jpg" alt="">
-        <figcaption>Es una imagen sobre el Frontend</figcaption>
-    </figure>
-
-    <p>Desarrollador que manejara las cosas en el lado del cliente (el navegador). Ejemplo los botones de una web, las animaciones, los colores, los efectos, textos, tipografías, etc.</p>
-    <h4>Tecnologías que debe manejar un Front-end</h4>
-    <ul>
-        <li>HTML</li> <a href="#">Descarga aquí el listado de etiquetas HTML</a>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>Frameworks de CSS</li>
-        <li>Frameworks de Javascript</li>
-        <li>Procesadores de CSS</li>
-        <li>Compiladores de Javascript</li>
-    </ul>
-    <h3>Back-end</h3>
-    <figure>
-        <img src="./imagenes/back_end.jpg" alt="">
-        <figcaption>Es una imagen sobre el backend</figcaption>
-    </figure>
-
-    <p>Desarrollador que trabaja de parte del servidor, va a manejar toda lógica interna de los procesos para que toda solicitud de parte del cliente (el navegador) regrese la información deseada.</p>
-    <h4>Tecnologías que debe manejar un Back-end</h4>
-    <ul>
-        <li>Lenguajes de programación</li>
-        <li>Frameworks</li>
-        <li>Infraestructura</li>
-        <li>Bases de datos</li>
-    </ul>
-    <h3>Full Stack</h3>
-    <p>Es la fusión de un front-end y un back-end, osea una persona que entiende y domina ambos campos, aunque no necesariamente debe conocer al 100% ambas tecnologías si debe entenderlas bien. Un full stack comprende con claridad el proceso completo de creación de una web, desde su inicio en la parte de diseño hasta su finalización en producción. Sin embargo un fullstack siempre posee un area de especialización, osea un area que domina a la perfección.</p>
-    <h4>Tecnologías que debe manejar un fullstack</h4>
-    <ul>
-        <li>Las mismas del Front-en y del Back-end</li>
-    </ul>
-    </main>
+        <Article class="article">
+            <H1 class="first-title">Fundamentos del Web developer</H1>
+            <p class="first-subtitle">Conceptos básicos y fundamentos necesarios para el web developer (desarrollador web)</p>
+            <article class="article-contenido">
+                <h2 class="title-contenido">Tabla de Contenido</h2>
+                <ul class="article-contenido__list-option1">
+                    <li class="article-contenido__list">Perfile de un web developer</li>
+                    <ul class="article-contenido__list-option2">
+                        <li class="article-contenido__list">Front-end</li>
+                        <li class="article-contenido__list">Back-end</li>
+                        <li class="article-contenido__list">Ful Stack</li>
+                    </ul>
+                </ul>
+            </article>
+        <h2 class="title-h2-article">Perfiles de un web developer</h2>
+        <h3>Front-end</h3>
+        <figure class="img-content">
+            <img src="./imagenes/front_end.jpg" alt="">
+            <figcaption>Es una imagen sobre el Frontend</figcaption>
+        </figure>
+    
+        <p>Desarrollador que manejara las cosas en el lado del cliente (el navegador). Ejemplo los botones de una web, las animaciones, los colores, los efectos, textos, tipografías, etc.</p>
+        <h4>Tecnologías que debe manejar un Front-end</h4>
+        <ul>
+            <li>HTML</li> <a href="#">Descarga aquí el listado de etiquetas HTML</a>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Frameworks de CSS</li>
+            <li>Frameworks de Javascript</li>
+            <li>Procesadores de CSS</li>
+            <li>Compiladores de Javascript</li>
+        </ul>
+        <h3>Back-end</h3>
+        <figure class="img-content">
+            <img src="./imagenes/back_end.jpg" alt="">
+            <figcaption>Es una imagen sobre el backend</figcaption>
+        </figure>
+    
+        <p>Desarrollador que trabaja de parte del servidor, va a manejar toda lógica interna de los procesos para que toda solicitud de parte del cliente (el navegador) regrese la información deseada.</p>
+        <h4>Tecnologías que debe manejar un Back-end</h4>
+        <ul>
+            <li>Lenguajes de programación</li>
+            <li>Frameworks</li>
+            <li>Infraestructura</li>
+            <li>Bases de datos</li>
+        </ul>
+        <h3>Full Stack</h3>
+        <p>Es la fusión de un front-end y un back-end, osea una persona que entiende y domina ambos campos, aunque no necesariamente debe conocer al 100% ambas tecnologías si debe entenderlas bien. Un full stack comprende con claridad el proceso completo de creación de una web, desde su inicio en la parte de diseño hasta su finalización en producción. Sin embargo un fullstack siempre posee un area de especialización, osea un area que domina a la perfección.</p>
+        <h4>Tecnologías que debe manejar un fullstack</h4>
+        <ul>
+            <li>Las mismas del Front-en y del Back-end</li>
+        </ul>a
+        </main>
+        </Article>
 <footer class="footer">
         <section class="footer-box">
             <p class="footer-box__derechos">Derechos reservados</p>
