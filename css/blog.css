@@ -69,57 +69,9 @@ html {
 }
 
 .article {
-    margin: 2rem;
+    margin: 3rem;
     display: flex;
     flex-direction: column;
-}
-
-.first-title {
-    color: var(--first-font-color);
-    font-size: var(--font-title-size);
-    margin: 1.5rem;
-    padding: 0.0rem;
-    text-align: center;
-}
-
-.first-subtitle {
-    margin: 1rem;
-    padding: 1rem;
-    font-size: var(--font-general);
-    color: var(--first-font-color);
-    text-align: center;
-}
-
-.contenedor-padre {
-    background-color: var(--secundary-color);
-    width: 100%;
-    padding: 1rem;
-}
-
-.contenedor-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contenedor-box h3 {
-    background-color: var(--primary-color);
-    color: var(--first-font-color);
-    border-radius: 1rem;
-    margin: 1rem;
-    padding: 2rem;
-}
-
-.contenedor-h2__title {
-    display: flex;
-    justify-content: center;
-    color: var(--first-font-color);
-    padding: 1.5rem;
-}
-
-.article {
-    display: flex;
-    margin: 3rem;
 }
 
 .article p {
@@ -169,9 +121,58 @@ html {
     padding: 2rem;
 }
 
-.img-content img {
-    width: 20rem;
-    height: 20rem;
+.first-title {
+    color: var(--first-font-color);
+    font-size: var(--font-title-size);
+    margin: 1.5rem;
+    padding: 0.0rem;
+    text-align: center;
+}
+
+.first-subtitle {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: var(--font-general);
+    color: var(--first-font-color);
+    text-align: center;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: azure;
+    margin: 1rem;
+    padding: 2rem;
+    border: #000000 0.2rem solid;
+    border-radius: 2rem;
+}
+
+.article-container h3 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.article-container .img-content img {
+    width: 100%;
+}
+
+.article-container p {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.article-container h4 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.article-container ul {
+    text-align: left;
+    margin: 0.5rem;
+    list-style: none;
 }
 
 .footer {
