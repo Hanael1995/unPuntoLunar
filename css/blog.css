@@ -137,6 +137,13 @@ html {
     text-align: center;
 }
 
+.article-container-superior {
+    display: flex;
+    align-items: baseline;
+    align-content: space-around;
+
+}
+
 .article-container {
     display: flex;
     flex-direction: column;
