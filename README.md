@@ -14,7 +14,11 @@ El proyecto web se compone de una serie de paginas y subpaginas en las que el te
 * --primary-color: #e63727;
 * --secundary-color: #961b10;
 * --first-font-color: #ffff;
+* --font-color-link-hover: #dd9611;
 
 **Tamaños de fuentes**
-* --font-general: 1.8rem;
-* --font-title-size: 2.5rem;
+* --font-general-size: 1.8rem;
+* --font-title-h1-size: 4.5rem;
+* --font-subtitle-h2-size: 3.5rem;
+* --font-subtitle-h3-size: 3.0rem;
+* --font-subtitle-h4-size: 2.5rem;
