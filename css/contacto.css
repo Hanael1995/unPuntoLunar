@@ -2,9 +2,12 @@
     --primary-color: #e63727;
     --secundary-color: #961b10;
     --first-font-color: #ffff;
-    --font-general: 1.8rem;
-    --font-title-size: 2.5rem;
-    --font-link-active: #dd9611;
+    --font-color-link-hover: #dd9611;
+    --font-general-size: 1.8rem;
+    --font-title-h1-size: 4.5rem;
+    --font-subtitle-h2-size: 3.5rem;
+    --font-subtitle-h3-size: 3.0rem;
+    --font-subtitle-h4-size: 2.5rem;
 }
 
 * {
@@ -19,7 +22,7 @@ html {
 }
 
 .body {
-    font-size: var(--font-general)
+    font-size: var(--font-general-size);
 }
 
 .header {
@@ -53,7 +56,7 @@ html {
 }
 
 .main-nav__iteam a:hover {
-    color: rgb(233, 149, 23);
+    color: var(--font-color-link-hover);
 }
 
 .main-nav__iteam a:active {
@@ -67,7 +70,7 @@ html {
 
 .title {
     color: var(--first-font-color);
-    font-size: var(--font-title-size);
+    font-size: var(--font-title-h1-size);
     margin: 0.5rem;
     padding: 0.0rem;
     text-align: center;
@@ -77,7 +80,7 @@ html {
     margin: 1rem;
     padding: 1rem;
     position: relative;
-    font-size: var(--font-general);
+    font-size: var(--font-subtitle-h4-size);
 }
 
 .contenedor-padre {
@@ -125,7 +128,7 @@ html {
 }
 
 .form span {
-    font-size: var(--font-title-size);
+    font-size: var(--font-subtitle-h4-size);
     color: var(--first-font-color);
 
 }
@@ -134,7 +137,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--font-general);
+    font-size: var(--font-general-size);
     margin: 1rem;
     padding: 1.2rem;
     width: 100%;

@@ -2,8 +2,12 @@
     --primary-color: #e63727;
     --secundary-color: #961b10;
     --first-font-color: #ffff;
-    --font-general: 1.8rem;
-    --font-title-size: 2.5rem;
+    --font-color-link-hover: #dd9611;
+    --font-general-size: 1.8rem;
+    --font-title-h1-size: 4.5rem;
+    --font-subtitle-h2-size: 3.5rem;
+    --font-subtitle-h3-size: 3.0rem;
+    --font-subtitle-h4-size: 2.5rem;
 }
 
 * {
@@ -22,7 +26,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: var(--font-general);
+    font-size: var(--font-general-size);
 }
 
 .header {
@@ -56,11 +60,11 @@ html {
 }
 
 .main-nav__iteam a:hover {
-    color: rgb(233, 149, 23);
+    color: var(--font-color-link-hover);
 }
 
 .main-nav__iteam a:active {
-    color: rgb(250, 246, 246);
+    color: var(--first-font-color);
 }
 
 .cuerpo {
@@ -76,7 +80,7 @@ html {
 
 .first-title {
     color: var(--first-font-color);
-    font-size: var(--font-title-size);
+    font-size: var(--font-title-h1-size);
     margin: 1.5rem;
     padding: 0.0rem;
     text-align: center;
@@ -85,7 +89,7 @@ html {
 .first-subtitle {
     margin: 1rem;
     padding: 1rem;
-    font-size: var(--font-general);
+    font-size: var(--font-subtitle-h4-size);
     color: var(--first-font-color);
     text-align: center;
 }
@@ -133,42 +137,43 @@ html {
 }
 
 .title-h2-article {
+    font-size: var(--font-subtitle-h2-size);
     text-align: center;
     padding: 2rem;
 }
 
 .article-container-superior {
     display: flex;
-    align-items: stretch;
 }
 
 .article-container {
     display: flex;
     flex-direction: column;
+    width: 200rem;
     background-color: azure;
     margin: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     border: #000000 0.2rem solid;
     border-radius: 2rem;
 }
 
 .article-container h3 {
-    font-size: 3.5rem;
+    font-size: var(--font-subtitle-h3-size);
     text-align: center;
     margin: 0.5rem;
 }
 
-/* .article-container .img-content img {
+.article-container .img-content img {
     width: 100%;
-} */
+}
 
 .article-container p {
-    text-align: center;
-    margin: 0.5rem;
+    text-align: justify;
+    margin: 1.0rem;
 }
 
 .article-container h4 {
-    font-size: 2.2rem;
+    font-size: var(--font-subtitle-h4-size);
     text-align: center;
     margin: 0.5rem;
 }
