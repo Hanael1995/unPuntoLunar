@@ -18,7 +18,7 @@
 
 html {
     font-size: 62.5%;
-    background-color: var(--primary-color);
+    background-color: var(--secundary-color);
 }
 
 .body {
@@ -111,7 +111,7 @@ html {
 }
 
 .form {
-    background-color: var(--secundary-color);
+    background-color: var(--primary-color);
     margin: 5rem;
     display: flex;
     flex-direction: column;
