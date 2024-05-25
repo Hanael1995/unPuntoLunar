@@ -22,14 +22,20 @@ html {
 }
 
 .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: var(--font-general-size);
 }
 
 .header {
     z-index: 1000;
+    width: 100%;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    border-bottom: var(--secundary-color) 1px solid;
 }
 
 .logo-img__logo {
@@ -64,8 +70,9 @@ html {
 }
 
 .cuerpo {
-    position: relative;
-    top: 1rem;
+    display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
 }
 
 .title {
@@ -79,7 +86,6 @@ html {
 .title__first-subtitle {
     margin: 1rem;
     padding: 1rem;
-    position: relative;
     font-size: var(--font-subtitle-h4-size);
 }
 

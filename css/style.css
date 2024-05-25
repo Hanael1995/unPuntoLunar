@@ -19,7 +19,6 @@
 html {
     font-size: 62.5%;
     background-color: var(--secundary-color);
-    height: 100%;
 }
 
 .body {
@@ -31,9 +30,12 @@ html {
 
 .header {
     z-index: 1000;
-    background-color: #e63727;
+    width: 100%;
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    border-bottom: var(--secundary-color) 1px solid;
 }
 
 .logo-img__logo {
@@ -64,11 +66,13 @@ html {
 }
 
 .main-nav__iteam a:active {
-    color: rgb(250, 246, 246);
+    color: var(--first-font-color);
 }
 
 .cuerpo {
     display: flex;
+    margin-top: 10rem;
+    flex-direction: column;
 }
 
 .title {
