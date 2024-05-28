@@ -137,3 +137,14 @@ html {
     background-color: var(--primary-color);
     padding: 2rem;
 }
+
+.footer-social-network figure {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.footer-social-network img {
+    width: 20px;
+    height: 20px;
+}
