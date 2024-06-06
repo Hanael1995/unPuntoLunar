@@ -71,9 +71,9 @@ html {
 }
 
 .cuerpo {
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
     margin-top: 10rem;
-    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -94,8 +94,7 @@ html {
 .contenedor-padre {
     display: flex;
     flex-direction: column;
-    background-color: var(--secundary-color);
-    width: 100%;
+    background-color: red;
     padding: 1rem;
 }
 
@@ -106,30 +105,33 @@ html {
     padding: 1.5rem;
 }
 
+.contenedor-box-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: blue;
+}
+
 .contenedor-box {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contenedor-box h3 {
-    display: flex;
-    width: 100%;
+    align-items: center;
+    width: 200px;
     background-color: var(--primary-color);
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 2rem;
+    flex-grow: 1;
 }
 
-.contenedor-box a {
+.contenedor-box-first a {
     color: var(--first-font-color);
 }
 
-.contenedor-box a:hover {
+.contenedor-box-first a:hover {
     color: var(--font-link-active);
 }
 
-.contenedor-box a:active {
+.contenedor-box-first a:active {
     color: var(--first-font-color);
 }
 
