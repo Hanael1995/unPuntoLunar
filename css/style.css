@@ -134,14 +134,21 @@ html {
 }
 
 .footer {
+    display: block;
     background-color: var(--primary-color);
     padding: 2rem;
 }
 
-.footer-social-network figure {
+.footer-box {
     display: flex;
     justify-content: space-between;
-    width: 120px;
+}
+
+.footer-social-network {
+    width: 12rem;
+    max-width: 12rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-social-network img {

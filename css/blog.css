@@ -189,9 +189,24 @@ html {
 }
 
 .footer {
-    display: flex;
-    background-color: #cf2c1d;
+    display: block;
+    background-color: var(--primary-color);
     padding: 2rem;
-    position: relative;
-    top: 1rem;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-network {
+    width: 12rem;
+    max-width: 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social-network img {
+    width: 20px;
+    height: 20px;
 }
