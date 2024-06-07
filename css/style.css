@@ -125,12 +125,9 @@ html {
 }
 
 .contenedor-box img {
-    align-items: center;
     width: 30px;
     height: 30px;
 }
-
-
 
 .contenedor-box-first a {
     color: var(--first-font-color);
@@ -141,6 +138,44 @@ html {
 }
 
 .contenedor-box-first a:active {
+    color: var(--first-font-color);
+}
+
+.contenedor-second-box-first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilos de la caja número 2, la cuál servirá para crear cajas de: Titulo, texto e imagen; se usara para los previews de blogs y otros elementos como recursos */
+
+.contenedor-second-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 320px;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 2rem;
+
+}
+
+.contenedor-second-box img {
+    width: 30px;
+    height: 30px;
+}
+
+.contenedor-second-box-first a {
+    color: var(--first-font-color);
+}
+
+.contenedor-second-box-first a:hover {
+    color: var(--font-link-active);
+}
+
+.contenedor-second-box-first a:active {
     color: var(--first-font-color);
 }
 
