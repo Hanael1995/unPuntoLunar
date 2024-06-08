@@ -1,3 +1,5 @@
+/* Variables del proyecto y estilos generales del proyecto */
+
 :root {
     --primary-color: #e63727;
     --secundary-color: #961b10;
@@ -28,6 +30,8 @@ html {
     font-size: var(--font-general-size);
 
 }
+
+/* Estilos del header */
 
 .header {
     z-index: 1000;
@@ -70,9 +74,9 @@ html {
     color: var(--first-font-color);
 }
 
+/* Estilos del cuerpo del proyecto */
+
 .cuerpo {
-    /* display: flex;
-    flex-direction: column; */
     margin-top: 10rem;
     min-height: 100vh;
 }
@@ -103,6 +107,8 @@ html {
     color: var(--first-font-color);
     padding: 1.5rem;
 }
+
+/* Estilos de la caja número 1, compuesta por un texto y un icono, utilizada hasta el momento para la sección de conceptos básicos del home */
 
 .contenedor-box-first {
     display: flex;
@@ -151,15 +157,14 @@ html {
 
 .contenedor-second-box {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    text-align: center;
     gap: 1rem;
     width: 320px;
     background-color: var(--primary-color);
     border-radius: 1rem;
     margin: 0.5rem;
     padding: 2rem;
-
 }
 
 .contenedor-second-box img {
@@ -178,6 +183,8 @@ html {
 .contenedor-second-box-first a:active {
     color: var(--first-font-color);
 }
+
+/* Estilos del Footer */
 
 .footer {
     display: block;
