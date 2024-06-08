@@ -164,12 +164,18 @@ html {
     background-color: var(--primary-color);
     border-radius: 1rem;
     margin: 0.5rem;
-    padding: 2rem;
 }
 
 .contenedor-second-box img {
-    width: 30px;
-    height: 30px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 1rem;
+}
+
+.contenedor-second-box p {
+    padding: 1rem;
 }
 
 .contenedor-second-box-first a {
