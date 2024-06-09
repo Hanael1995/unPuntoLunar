@@ -170,28 +170,3 @@ html {
 .contenedor-second-box-first a:active {
     color: var(--first-font-color);
 }
-
-/* Estilos del Footer */
-
-.footer {
-    display: block;
-    background-color: var(--primary-color);
-    padding: 2rem;
-}
-
-.footer-box {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-social-network {
-    width: 12rem;
-    max-width: 12rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-social-network img {
-    width: 20px;
-    height: 20px;
-}
