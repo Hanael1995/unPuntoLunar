@@ -4,7 +4,7 @@
     --primary-color: #e63727;
     --secundary-color: #961b10;
     --first-font-color: #ffff;
-    --font-color-link-hover: #dd9611;
+    --font-color-link-hover: rgb(177, 90, 10);
     --font-general-size: 1.8rem;
     --font-title-h1-size: 4.5rem;
     --font-subtitle-h2-size: 3.5rem;
@@ -67,7 +67,7 @@ html {
 }
 
 .main-nav__iteam a:hover {
-    color: var(--font-color-link-hover);
+    color: var(--first-font-color);
 }
 
 .main-nav__iteam a:active {
@@ -147,13 +147,13 @@ html {
     color: var(--first-font-color);
 }
 
+/* Estilos de la caja número 2, la cuál servirá para crear cajas de: Titulo, texto e imagen; se usara para los previews de blogs y otros elementos como recursos */
+
 .contenedor-second-box-first {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-/* Estilos de la caja número 2, la cuál servirá para crear cajas de: Titulo, texto e imagen; se usara para los previews de blogs y otros elementos como recursos */
 
 .contenedor-second-box {
     display: flex;
@@ -166,12 +166,20 @@ html {
     margin: 0.5rem;
 }
 
+.contenedor-second-box:hover {
+    background-color: rgb(177, 90, 10);
+}
+
 .contenedor-second-box img {
     display: flex;
     max-width: 100%;
     height: auto;
     align-self: flex-start;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.contenedor-second-box h2 {
+    padding: 1rem 1rem 0 1rem;
 }
 
 .contenedor-second-box p {
@@ -180,6 +188,7 @@ html {
 
 .contenedor-second-box-first a {
     color: var(--first-font-color);
+    text-decoration-line: none;
 }
 
 .contenedor-second-box-first a:hover {
