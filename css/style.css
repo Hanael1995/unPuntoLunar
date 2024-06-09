@@ -81,7 +81,22 @@ html {
     min-height: 100vh;
 }
 
-.title {
+/* Contenedor que alberga todos los contenedores del cuerpo */
+
+.container-father {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: yellow;
+}
+
+/* Contenedor one: Este es el primer contenedor del cuerpo (Home), contiene principalmente títulos y subtítulos (reutilizable para otras secciones de otras páginas) */
+
+.container-box-one {
+    background-color: rgb(7, 133, 243);
+}
+
+.container-box-one__titles {
     color: var(--first-font-color);
     font-size: var(--font-title-h1-size);
     margin: 0.5rem;
@@ -89,31 +104,31 @@ html {
     text-align: center;
 }
 
-.title__first-subtitle {
+.container-box-one__first-subtitle {
     margin: 1rem;
     padding: 1rem;
     font-size: var(--font-subtitle-h4-size);
 }
 
-.contenedor-padre {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
+/* Contenedor Estilos de la caja número 1, compuesta por un texto y un icono, utilizada hasta el momento para la sección de conceptos básicos del home */
 
-.contenedor-h2__title {
-    display: flex;
-    justify-content: center;
-    color: var(--first-font-color);
-    padding: 1.5rem;
+.contenedor-box-two {
+    background-color: rgb(15, 102, 102);
 }
-
-/* Estilos de la caja número 1, compuesta por un texto y un icono, utilizada hasta el momento para la sección de conceptos básicos del home */
 
 .contenedor-box-first {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.container-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--first-font-color);
+    padding: 1.5rem;
+    text-align: center;
 }
 
 .contenedor-box {
