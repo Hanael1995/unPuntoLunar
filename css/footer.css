@@ -6,7 +6,7 @@
     padding: 2rem;
 }
 
-.footer-box {
+.footer-container {
     display: flex;
     justify-content: space-between;
 }
