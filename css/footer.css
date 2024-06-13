@@ -11,14 +11,14 @@
     justify-content: space-between;
 }
 
-.footer-social-network {
+.footer-socialnetwork {
     width: 12rem;
     max-width: 12rem;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-social-network img {
+.footer-socialnetwork__iteam {
     width: 20px;
     height: 20px;
 }
