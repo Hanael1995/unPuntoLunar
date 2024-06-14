@@ -1,0 +1,28 @@
+/* Estilos de la card-one */
+
+.card-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 200px;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    flex-grow: 1;
+}
+
+.card-one__img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-one__link {
+    color: var(--first-font-color);
+    text-decoration: none;
+}
+
+.card-one__link--hover:hover {
+    color: var(--secundary-font-color);
+}

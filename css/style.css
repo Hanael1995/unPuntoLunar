@@ -40,17 +40,8 @@
 
 /* Contenedor Estilos de la caja número 1, compuesta por un texto y un icono, utilizada hasta el momento para la sección de conceptos básicos del home */
 
-.contenedor-box-two {
+.container-two {
     background-color: rgb(15, 102, 102);
-}
-
-.contenedor-box-first {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.container-titles {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,35 +50,11 @@
     text-align: center;
 }
 
-.contenedor-box {
+.card-container {
     display: flex;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 200px;
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    margin: 0.5rem;
-    padding: 2rem;
-    flex-grow: 1;
-}
-
-.contenedor-box img {
-    width: 30px;
-    height: 30px;
-}
-
-.contenedor-box-first a {
-    color: var(--first-font-color);
-}
-
-.contenedor-box-first a:hover {
-    color: var(--font-link-active);
-}
-
-.contenedor-box-first a:active {
-    color: var(--first-font-color);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: aqua;
 }
 
 /* Estilos de la caja número 2, la cuál servirá para crear cajas de: Titulo, texto e imagen; se usara para los previews de blogs y otros elementos como recursos */
