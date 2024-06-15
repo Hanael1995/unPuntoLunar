@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     font-size: var(--font-general-size);
-
 }
 
 /* Estilos del cuerpo del proyecto */
@@ -59,7 +58,7 @@
 
 /* Estilos de la caja número 2, la cuál servirá para crear cajas de: Titulo, texto e imagen; se usara para los previews de blogs y otros elementos como recursos */
 
-.contenedor-second-box-first {
+.card-container-two {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
