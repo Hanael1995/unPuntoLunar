@@ -1,0 +1,30 @@
+/* Estilos de la card-two */
+
+.card-two {
+    display: flex;
+    text-align: center;
+    width: 320px;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    color: var(--first-font-color);
+    text-decoration: none;
+}
+
+.card-two--hover:hover {
+    background-color: var(--font-color-link-hover);
+    color: var(--secundary-font-color);
+}
+
+.card-two__img {
+    max-width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-two__title {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.card-two__text {
+    padding: 1rem;
+}

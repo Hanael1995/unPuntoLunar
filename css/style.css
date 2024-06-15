@@ -62,48 +62,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-.contenedor-second-box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1rem;
-    width: 320px;
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    margin: 0.5rem;
-}
-
-.contenedor-second-box:hover {
-    background-color: rgb(177, 90, 10);
-}
-
-.contenedor-second-box img {
-    display: flex;
-    max-width: 100%;
-    height: auto;
-    align-self: flex-start;
-    border-radius: 1rem 1rem 0 0;
-}
-
-.contenedor-second-box h2 {
-    padding: 1rem 1rem 0 1rem;
-}
-
-.contenedor-second-box p {
-    padding: 1rem;
-}
-
-.contenedor-second-box-first a {
-    color: var(--first-font-color);
-    text-decoration-line: none;
-}
-
-.contenedor-second-box-first a:hover {
-    color: var(--font-link-active);
-}
-
-.contenedor-second-box-first a:active {
-    color: var(--first-font-color);
+    background-color: rgb(209, 128, 22);
 }
