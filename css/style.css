@@ -64,3 +64,30 @@
     justify-content: space-around;
     background-color: rgb(209, 128, 22);
 }
+
+.container-three {
+    background-color: rgb(29, 102, 15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--first-font-color);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.container-four {
+    background-color: rgb(102, 15, 95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--first-font-color);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card-container-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(209, 128, 22);
+}
