@@ -1,0 +1,28 @@
+/* Estilos de los Botones */
+
+.button-one {
+    width: 220px;
+    margin: 1rem;
+    padding: 1rem;
+    align-self: center;
+    border: 3px solid var(--primary-color);
+    border-radius: 1rem;
+    background-color: var(--sesecundary-color);
+    box-shadow: 1px 2px 5px black;
+    color: aliceblue;
+}
+
+.button-one__link {
+    color: var(--first-font-color);
+    text-decoration: none;
+}
+
+.button-one--hover:hover {
+    background-color: var(--primary-color);
+    border: 3px solid var(--secundary-color);
+    color: black;
+}
+
+.button-one__link--hover:hover {
+    color: black;
+}
