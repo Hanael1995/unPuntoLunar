@@ -9,6 +9,7 @@
     margin: 0.5rem;
     color: var(--first-font-color);
     text-decoration: none;
+    box-shadow: 1px 2px 5px black;
 }
 
 .card-two--hover:hover {
