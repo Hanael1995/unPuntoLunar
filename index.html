@@ -7,8 +7,11 @@
     <title>Un punto Lunar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/mobile-header.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./css/tablet-header.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="./css/desktop-header.css" media="screen and (min-width: 1024px)">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/root-styles.css">
@@ -21,22 +24,27 @@
         <section class="logo">
                 <a href="./index.html"><img class="logo__img" src="./imagenes/Programing logo.png" alt="Logo de Curso"></a>
         </section>
-        <nav class="navbar">
-            <ul class="navbar">
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./index.html">Home</a>
-                </li>
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./recursos.html">Recursos</a>
-                </li>
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./blogs.html">Blog</a>
-                </li>
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./contacto.html">contacto</a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar--view">
+                <ul class="navbar__mobile-click navbar__mobile-click--view">
+                    <li class="navbar__mobile-click-list"></li>
+                    <li class="navbar__mobile-click-list"></li>
+                    <li class="navbar__mobile-click-list"></li>
+                </ul>
+                <ul class="navbar">
+                    <li class="navbar__iteam">
+                        <a class="navbar__iteam navbar__iteam--hover" href="./index.html">Home</a>
+                    </li>
+                    <li class="navbar__iteam">
+                        <a class="navbar__iteam navbar__iteam--hover" href="./recursos.html">Recursos</a>
+                    </li>
+                    <li class="navbar__iteam">
+                        <a class="navbar__iteam navbar__iteam--hover" href="./blogs.html">Blog</a>
+                    </li>
+                    <li class="navbar__iteam">
+                        <a class="navbar__iteam navbar__iteam--hover" href="./contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
     </Header>
     <main class="main-container">
         <section class="container-father">
