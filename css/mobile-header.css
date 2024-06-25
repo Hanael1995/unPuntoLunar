@@ -15,10 +15,50 @@
     height: 5rem;
 }
 
-.nav-click__iteam {
-    background-color: black;
-    width: 3rem;
-    height: 1rem;
-    margin: 0.5rem;
+.nav-mobile ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-mobile ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-mobile a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    background: #f2f2f2;
+}
+
+.nav-mobile a:hover, .nav-mobile a:focus {
+    background: #ddd;
+}
+
+.nav-mobile ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f2f2f2;
+    padding: 0;
+}
+
+.nav-mobile ul ul li {
+    display: block;
+}
+
+.nav-mobile ul ul a {
+    padding: 10px 20px;
+} 
+
+.nav-mobile ul ul a:hover, .nav-mobile ul ul a:focus {
+    background: #ddd;
+}
+
+.menu-toggle:focus + .submenu {
+    display: block;
 }
