@@ -32,11 +32,12 @@
     list-style: none;
 }
 
-/* Estilos del submenu */
 .nav-mobile__container {
     display: flex;
     position: relative;
 }
+
+/* Estilos del submenu */
 
 .nav-mobile__submenu--hide {
     display: none;
@@ -46,7 +47,7 @@
 .nav-mobile__click--view:focus + .nav-mobile__submenu {
     display: flex;
     flex-direction: column;
-    width: 70px;
+    width: 400px;
     height: 220px;
     background: #f2f2f2;
     list-style: none;
