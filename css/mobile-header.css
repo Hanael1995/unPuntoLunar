@@ -34,21 +34,34 @@
 
 .nav-mobile__container {
     display: flex;
-    position: relative;
 }
 
 /* Estilos del submenu */
 
 .nav-mobile__submenu--hide {
     display: none;
-    position: absolute;
 }
 
 .nav-mobile__click--view:focus + .nav-mobile__submenu {
     display: flex;
+}
+
+.nav-mobile__submenu {
     flex-direction: column;
-    width: 400px;
-    height: 220px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
     background: #f2f2f2;
-    list-style: none;
+    z-index: 10;
+
+}
+
+.nav-mobile__submenu-iteam-link {
+    text-decoration: none;
+    color: black;
+    text-justify: center;
 }
