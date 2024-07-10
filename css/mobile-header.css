@@ -18,10 +18,11 @@
 /* Estilos del Menu Mobile */
 
 /* Estilos del icono de dar click */
-.nav-mobile {
-    margin-top: 15px;
-    margin-right: 15px;
-    position: relative;
+
+/* .nav-mobile__iteam es menu-icon */
+
+#menu-toggle {
+    display: none;
 }
 
 .nav-mobile__iteam {
@@ -31,6 +32,44 @@
     margin: 3px;
     background: #ffffff;
     list-style: none;
+    cursor: pointer;
+}
+
+.nav-mobile__click::before,
+.nav-mobile__click::after, {
+    content: '';
+    display: block;
+    padding: 5px;
+    width: 60px;
+    margin: 3px;
+    background: #ffffff;
+    position: absolute;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.nav-mobile__click::before {
+    top: 8px;
+}
+
+.nav-mobile__click::after {
+    top: 8px;
+}
+
+#menu-toggle:checked + .nav-mobile__click::before {
+    transform: rotate(45seg);
+    top: 13px;
+}
+
+#menu-toggle:checked + .nav-mobile__click::after {
+    transform: rotate(-45seg);
+    top: 13px;
+}
+
+.nav-mobile {
+    margin-top: 15px;
+    margin-right: 15px;
+    position: relative;
 }
 
 .nav-mobile__container {
@@ -60,10 +99,16 @@
     z-index: 10;
     list-style: none;
     font-size: 3rem;
+    transition: left 0,3s ease;
 }
 
 .nav-mobile__submenu-iteam-link {
     text-decoration: none;
     color: black;
     text-justify: center;
+}
+
+
+#menu-toggle:checked ~ .nav-mobile {
+    left: 0;
 }
