@@ -17,6 +17,10 @@
 
 /* Estilos del Menu Mobile */
 
+.menu-desktop {
+    display: none;
+}
+
 .menu-mobile__toggle {
     display: none;
 }
