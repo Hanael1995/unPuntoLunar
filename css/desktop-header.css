@@ -10,7 +10,11 @@
     border-bottom: var(--secundary-color) 1px solid;
 }
 
-.navbar {
+.menu-mobile__icon {
+    display: none;
+}
+
+.menu-desktop {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -21,8 +25,7 @@
     height: 5rem;
 }
 
-
-.navbar__iteam {
+.menu-desktop__item {
     margin: 1rem;
     list-style: none;
     font-weight: 700;
@@ -30,6 +33,6 @@
     text-decoration: none;
 }
 
-.navbar__iteam--hover:hover {
+.menu-desktop__item--hover:hover {
     color: var(--first-font-color);
 }
