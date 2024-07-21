@@ -1,6 +1,6 @@
 /* Estilos de los Botones */
 
-.button-one {
+.btn-one {
     width: 220px;
     margin: 1rem;
     padding: 1rem;
@@ -13,17 +13,16 @@
     font-size: 1.8rem;
 }
 
-.button-one__link {
+.btn-one__link {
     color: var(--first-font-color);
     text-decoration: none;
 }
 
-.button-one--hover:hover {
-    /* background-color: var(--primary-color); */
+.btn-one--hover:hover {
     border: 3px solid var(--secundary-color);
     color: black;
 }
 
-.button-one__link--hover:hover {
+.btn-one__link--hover:hover {
     color: black;
 }
