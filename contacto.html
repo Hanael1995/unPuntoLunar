@@ -7,8 +7,9 @@
     <title>Contacto</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/mobile-header.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1024px)">
+    <link rel="stylesheet" href="./css/desktop-header.css" media="screen and (min-width: 1024px)">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/root-styles.css">
@@ -21,22 +22,34 @@
         <section class="logo">
                 <a href="./index.html"><img class="logo__img" src="./imagenes/Programing logo.png" alt="Logo de Curso"></a>
         </section>
-        <nav class="navbar">
-            <ul class="navbar">
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./index.html">Home</a>
-                </li>
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./recursos.html">Recursos</a>
-                </li>
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./blogs.html">Blog</a>
-                </li>
-                <li class="navbar__iteam">
-                    <a class="navbar__iteam navbar__iteam--hover" href="./contacto.html">contacto</a>
-                </li>
+
+            <input type="checkbox" id="menu-toggle" class="menu-mobile__toggle">
+            <label for="menu-toggle" class="menu-mobile__icon"></label>
+        <nav class="menu-mobile">
+            <ul class="menu-mobile__list">
+                <li class="menu-mobile__item"><a href="./index.html" class="menu-mobile__link">Home</a></li>
+                <li class="menu-mobile__item"><a href="./recursos.html" class="menu-mobile__link">Recursos</a></li>
+                <li class="menu-mobile__item"><a href="./blogs.html" class="menu-mobile__link">Blog</a></li>
+                <li class="menu-mobile__item"><a href="./contacto.html" class="menu-mobile__link">Contacto</a></li>
             </ul>
         </nav>
+
+            <nav class="menu-desktop">
+                <ul class="menu-desktop">
+                    <li class="menu-desktop__item">
+                        <a class="menu-desktop__item menu-desktop__item--hover" href="./index.html">Home</a>
+                    </li>
+                    <li class="menu-desktop__item">
+                        <a class="menu-desktop__item menu-desktop__item--hover" href="./recursos.html">Recursos</a>
+                    </li>
+                    <li class="menu-desktop__item">
+                        <a class="menu-desktop__item menu-desktop__item--hover" href="./blogs.html">Blog</a>
+                    </li>
+                    <li class="menu-desktop__item">
+                        <a class="menu-desktop__item menu-desktop__item--hover" href="./contacto.html">contacto</a>
+                    </li>
+                </ul>
+            </nav>
     </Header>
     <main class="main-container">
         <section class="title">
