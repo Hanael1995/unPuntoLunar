@@ -29,7 +29,7 @@
     margin: 1rem;
     list-style: none;
     font-weight: 700;
-    color: black;
+    color: var(--first-font-color);
     text-decoration: none;
 }
 
