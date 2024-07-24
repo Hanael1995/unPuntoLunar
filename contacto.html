@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/card-one.css">
     <link rel="stylesheet" href="./css/card-two.css">
     <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/contacto.css">
 </head>
 <body class="body">
     <Header class="header">
@@ -57,27 +58,27 @@
             <p class="title__first-subtitle">Deseas colocarte en contacto con nosotros? rellena el siguiente formulario.</p>
         </section>
         <form class="form" action="">
-            <label class="form-field" for="nombre">
-                <span>Nombre:</span>
-                <input type="text" id="nombre" placeholder="Tu nombre" autocomplete="name" required>
+            <label class="form-item" for="nombre">
+                <span class="names">Nombre:</span>
+                <input class="form-field" type="text" id="nombre" placeholder="Tu nombre" autocomplete="name" required>
             </label>
-            <label class="form-field" for="apellido" >
-                <span>Apellido:</span>
-                <input type="text" id="apellido" placeholder="Tu apellido" required>
+            <label class="form-item" for="apellido" >
+                <span class="names">Apellido:</span>
+                <input class="form-field" type="text" id="apellido" placeholder="Tu apellido" required>
             </label>
-            <label class="form-field" for="celular">
-                <span>Celular:</span>
-                <input type="number" id="celular" placeholder="Número de celular" required>
+            <label class="form-item" for="celular">
+                <span class="names">Celular:</span>
+                <input class="form-field" type="number" id="celular" placeholder="Número de celular" required>
             </label>
-            <label class="form-field" for="correo">
-                <span>Correo:</span>
-                <input type="email" id="correo" placeholder="tu e-mail" autocomplete="email" required>
+            <label class="form-item" for="correo">
+                <span class="names">Correo:</span>
+                <input class="form-field" type="email" id="correo" placeholder="tu e-mail" autocomplete="email" required>
             </label>
-            <label>
-                <span>Mensaje</span>
-                <textarea class="form-field" name="mensaje" cols="60" rows="10"></textarea>
+            <label class="form-item" >
+                <span class="names">Mensaje</span>
+                <textarea class="form-field textarea" name="mensaje" cols="60" rows="10"></textarea>
             </label>
-            <input class="form-btn" type="submit">
+            <input class="btn-one btn-green" type="submit">
         </form>    
     </main>
     <footer class="footer">
