@@ -25,44 +25,22 @@
     font-size: var(--font-subtitle-h4-size);
 }
 
-.contenedor-padre {
-    background-color: var(--secundary-color);
-    width: 100%;
-    padding: 1rem;
-}
-
-.contenedor-box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.contenedor-box h3 {
-    background-color: var(--primary-color);
-    color: var(--first-font-color);
-    border-radius: 1rem;
-    margin: 1rem;
-    padding: 2rem;
-}
-
-.contenedor-h2__title {
-    display: flex;
-    justify-content: center;
-    color: var(--first-font-color);
-    padding: 1.5rem;
-}
+/* Estilos del formulario */
 
 .form {
+    display: flex;
+    flex-direction: column;
     background-color: aliceblue;
     padding: 10px;
     width: 300px;
     margin: 0 auto;
-    color: rgb(63, 65, 65);
     border-radius: 8px;
 }
 
 .names {
-    
+    display: block;
+    color: rgb(54, 59, 59);
+    padding: 10px;
 }
 
 .textarea {
@@ -72,8 +50,13 @@
 }
 
 .form-field {
+    display: flex;
     outline: none;
     border: solid 1px #ccc;
     padding: 10px;
+    width: 280px;
+}
+
+.btn-one {
     width: 280px;
 }
