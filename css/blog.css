@@ -82,43 +82,47 @@
     padding: 2rem;
 }
 
+/* Estilos de las tarjetas */
+
 .article-container-superior {
-    display: flex;
+    max-width: 680px;
+
 }
 
-.article-container {
+.card-three {
     display: flex;
     flex-direction: column;
-    width: 200rem;
-    background-color: azure;
-    margin: 1rem;
-    padding: 1rem;
-    border: #000000 0.2rem solid;
-    border-radius: 2rem;
+    max-width: 320px;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    margin: 0.5rem;
+    color: var(--first-font-color);
+    text-decoration: none;
+    box-shadow: 1px 2px 5px black;
 }
 
-.article-container h3 {
+.card-three__img {
+    max-width: 100%;
+}
+
+.card-three__title {
     font-size: var(--font-subtitle-h3-size);
     text-align: center;
     margin: 0.5rem;
 }
 
-.article-container .img-content img {
-    width: 100%;
-}
-
-.article-container p {
+.card-three__content {
     text-align: justify;
     margin: 1.0rem;
 }
 
-.article-container h4 {
+.card-three__subtitle {
     font-size: var(--font-subtitle-h4-size);
     text-align: center;
     margin: 0.5rem;
 }
 
-.article-container ul {
+.card-three__list {
     text-align: left;
     margin: 0.5rem;
     list-style: none;
