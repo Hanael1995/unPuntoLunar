@@ -93,7 +93,7 @@
 .card-three {
     display: flex;
     flex-direction: column;
-    max-width: 420px;
+
     background-color: var(--primary-color);
     border-radius: 1rem;
     margin: 0.5rem;
