@@ -104,11 +104,13 @@
 
 .card-three-article {
     display: flex;
+    flex-direction: column;
 }
 
 .card-three__img {
-    width: 150px;
-    height: 150px;
+    display: flex;
+    width: 370px;
+    height: 260px;
     margin: 10px;
 }
 
@@ -133,4 +135,20 @@
 .card-three__list {
     text-align: left;
     margin: 3rem;
+}
+
+@media (min-width: 480px) {
+
+.card-three-article {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-three__img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+    
 }
