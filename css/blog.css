@@ -108,7 +108,6 @@
 }
 
 .card-three__img {
-    display: flex;
     width: 370px;
     height: 260px;
     margin: 10px;
@@ -145,7 +144,6 @@
 }
 
 .card-three__img {
-    display: flex;
     width: 150px;
     height: 150px;
     margin: 10px;
