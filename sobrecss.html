@@ -74,18 +74,17 @@
             </article>
             <section class="article-parrafo">
                 <H2 class="title-h2-article">¿Cómo se controla el orden al declarar CSS?</H2>
-                <p>El orden al declarar en CSS se controla a traves de tres elementos:</p>
+                <p>El orden al declarar en CSS es algo de gran importancia porque determina la capacidad del código para ser trabajado con una mayor claridad y facilidad, tanto por la persona que esta creando el proyecto, cómo para cualquier desarrollador que se una mismo después de este estar iniciado. El orden al declarar en CSS se controla a traves de tres elementos:</p>
                 <ol class="article-list-number">
                     <li>Importancia</li>
                     <li>Especificidad</li>
                     <li>Orden en las Fuentes</li>
                 </ol>
-                <p>La importancia es uno de los conceptos más importantes, Si dos declaraciones tienen la misma importancia, la especificidad de las reglas decidirá cuál se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final.</p>
+                <p>La "importancia" es uno de los conceptos más importantes, Si dos declaraciones tienen la misma importancia, la especificidad de las reglas decidirá cuál se debe aplicar. Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final.</p>
             </section>
                 <H2 class="title-h2-article">IMPORTANCIA</H2>
                 <p>Hace referencia a cual es la importancia que le da un navegador al CSS a la hora de aplicarlo. El navegador va a cargar los estilos de forma distinta, primero el navegador aplica sus estilos (estilos por defecto que el navegador posee para ciertas etiquetas HTML, esto se llama "Estilos del navegador"), Luego va a cargar nuestros estilos (los estilos que se hayan configurado en el proyecto web) y por ultimo va ha aplicar los estilos que vengan con un !important.</p>
                 <h2 class="title-h2-article">ESPECIFICIDAD</h2>
-                <p></p>
                 <table class="article-table">
                     <caption>De derecha a izquierda se muestra el nivel de importancia que el navegador le da a cada tipo selector CSS a la hora de ejecutar e implementarlo; osea 0 es menos importante y 1 es muy importante.</caption>
                     <caption><a href="https://www.codecaptain.io/tools/css-specificity-calculator">Clic aquí para ir a la calculara de especificidad</a></caption>
@@ -120,35 +119,38 @@
                         <td>0,0,0,0,1</td>
                         <td>Es el estilo aplicado a los selectores, como etiquetas de HTML, es el quinto en importancia.</td>
                     </tr>
-                </table>
-                <h3>Reglas de cascada</h3>
+                
                 <table class="article-table">
                     <caption>Estas son las decisiones que toma el navegador al encontrar un conflicto con los estilos de CSS</caption>
                     <tr>
-                        <td><b>Conflicto en la declaración</b></td>
-                        <td><b>Diferente origen o !important</b></td>
-                        <td><img class="table-img" src="./imagenes/flecha-correcta.png" alt="">no</td>
-                        <td><b>¿Tiene algún Inline style?</b></td>
-                        <td><img class="table-img" src="./imagenes/flecha-correcta.png" alt="">no</td>
-                        <td><b>¿Los selectores tienen una especificidad diferente?</b></td>
-                        <td><img class="table-img" src="./imagenes/flecha-correcta.png" alt="">no</td>
-                        <td><b>Utiliza las declaraciones que vienen en su fuente original.</b></td>
+                        <td>Conflicto en la declaración</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td><img class="table-img2" src="./imagenes/flecha-hacia-abajo.png" alt="">si</td>
-                        <td></td>
-                        <td><img class="table-img2" src="./imagenes/flecha-hacia-abajo.png" alt="">si</td>
-                        <td></td>
-                        <td><img class="table-img2" src="./imagenes/flecha-hacia-abajo.png" alt="">si</td>
-                    </tr>
-                    <tr>
-                        <td></td>
+                        <td>Diferente origen o !important</td>
+                        <td><img class="table-img2" src="./imagenes/flecha-correcta.png" alt="">si</td>
                         <td>Utiliza la declaración con el origen de mayor prioridad.</td>
-                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img class="table-img" src="./imagenes/flecha-hacia-abajo.png" alt="">no</td>
+                    </tr>
+                    <tr>
+                        <td>¿Tiene algún Inline style?</td>
+                        <td><img class="table-img2" src="./imagenes/flecha-correcta.png" alt="">si</td>
                         <td>Utiliza las Inline declaration</td>
-                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><img class="table-img" src="./imagenes/flecha-hacia-abajo.png" alt="">no</td>
+                    </tr>
+                    <tr>
+                        <td>¿Los selectores tienen una especificidad diferente?</td>
+                        <td><img class="table-img2" src="./imagenes/flecha-correcta.png" alt="">si</td>
                         <td>Utiliza las declaraciones con mayor especificidad.</td>
+                    </tr>
+                    <tr>
+                        <td><img class="table-img" src="./imagenes/flecha-hacia-abajo.png" alt="">no</td>
+                    </tr>
+                    <tr>
+                        <td>Utiliza las declaraciones que vienen en su fuente original.</td>
                     </tr>
                 </table>
                 <h2 class="title-h2-article">ORDEN DE LAS FUENTES</h2>

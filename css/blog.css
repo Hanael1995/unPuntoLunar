@@ -34,16 +34,11 @@
     text-align: center;
 }
 
-.article p {
-    padding: 0.5rem;
-}
-
 .article ol {
     margin: 1.5rem;
 }
 
 .article-table {
-    width: 100%;
     margin: 0.5rem;
     border: #000000 0.2rem solid;
     border-collapse: collapse;
