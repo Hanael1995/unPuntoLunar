@@ -157,30 +157,55 @@
                 <p>Es la forma en que nosotros mandamos a llamar a los estilos, CSS siempre va a empezar desde arriba hacia abajo y los estilo que siempre van a aplicar son los estilos que estén hasta abajo.Ejemplo: Si yo mando a llamar una clase arriba con ciertos estilos y luego vuelvo llamar esa clase abajo con otros estilos, se van a aplicar los de abajo. Esto es también aplicable al archivo de .css si hay un archivo de estilos abajo ese va aplicar los estilos por sobre los otros y si mandan a llamar los mismos estilos en ambos documentos siempre se aplicara el de abajo.</p>
                 <h2>Los combinadores (combinators)</h2>
                 <p>Nos permiten combinar múltiples selectores y crear una mayor especificidad. Estos combinadores nos ayudan a evitar el uso de #id </p>
-                <table class="article-table">
-                    <th>Combinadores</th>
-                    <tr>
-                        <td><b>CONCEPTO</b></td>
-                        <td><b>Hermano adyacente o cercano (adjacent sibling)</b></td>
-                        <td><b>Hermano general (general sibling)</b></td>
-                        <td><b>Hijo</b></td>
-                        <td><b>Descendiente</b></td>
-                    </tr>
-                    <tr>
-                        <td><b>ESTRUCTURA</b></td>
-                        <td>dv + p {...}</td>
-                        <td>dv ~ p {...}</td>
-                        <td>dv > p {...}</td>
-                        <td>dv p {...}</td>
-                    </tr>
-                    <tr>
-                        <td><b>DESCRIPCIÓN</b></td>
-                        <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hermanos adyacentes a la etiqueta mencionada, en el siguiente ejemplo: (h2 + p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que estén al lado de un titulo (h2).</td>
-                        <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hermanos generales a la etiqueta mencionada, en el siguiente ejemplo: (h2 ~ p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que que tengan un titulo (h2) como hermano general sin necesariamente estar uno al lado del otro.</td>
-                        <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hijos directos de la etiqueta mencionada, en el siguiente ejemplo: (Div > p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que que tengan un div como padre. Si por ejemplo una etiqueta div posee dentro otra etiqueta, como un <article> y dentro del article hay una etiqueta párrafo entonces el estilo no se aplicara por que seria hijo de article no de div.</td>
-                        <td>Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser descendientes de la etiqueta mencionada, en el siguiente ejemplo: (.div p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que tengan una clase .div ya sea que este en un contenedor o en elemento, este es el combinador más usado.</td>
-                    </tr>
-                </table>
+
+                <article class="card-container">
+                    
+                    <Article class="card-three">
+                        <h3 class="card-three__title">Hermano adyacente o cercano (adjacent sibling)</h3>
+                        <p class="card-three__content">Estructura: dv + p {...}</p>
+                        <p class="card-three__content">Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hermanos adyacentes a la etiqueta mencionada, en el siguiente ejemplo: (h2 + p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que estén al lado de un titulo (h2).</p>
+                    </Article>
+        
+                    <article class="card-three">
+                        <h3 class="card-three__title">Hermano general (general sibling)</h3>
+                        <p class="card-three__content">dv ~ p {...}</p>
+                        <p class="card-three__content">Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hermanos generales a la etiqueta mencionada, en el siguiente ejemplo: (h2 ~ p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que que tengan un titulo (h2) como hermano general sin necesariamente estar uno al lado del otro.	</p>
+                    </article>
+        
+                    <article class="card-three">
+                        <h3 class="card-three__title">Hijo</h3>
+                        <p class="card-three__content">dv > p {...}</p>
+                        <p class="card-three__content">Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser hijos directos de la etiqueta mencionada, en el siguiente ejemplo: (Div > p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que que tengan un div como padre. Si por ejemplo una etiqueta div posee dentro otra etiqueta, como un
+                            y dentro del article hay una etiqueta párrafo entonces el estilo no se aplicara por que seria hijo de article no de div.</p>
+                    </article>
+        
+                    <article class="card-three">
+                        <h3 class="card-three__title">Descendiente</h3>
+                        <p class="card-three__content">dv p {...}</p>
+                        <p class="card-three__content">Aplicara el estilo a todas las etiquetas que cumplan con la condición de ser descendientes de la etiqueta mencionada, en el siguiente ejemplo: (.div p {color: red}) se aplicaría el estilo de color rojo a todas las etiquetas párrafo (p) que tengan una clase .div ya sea que este en un contenedor o en elemento, este es el combinador más usado.</p>
+                    </article>
+        
+                    <article class="card-three">
+                        <H3 class="card-three__title">Sistema Binario</H3>
+                        <P class="card-three__content">Sistema de numeración, en el cual solo se utilizan ceros (0) y Unos (1).
+                        <br>
+                        <br>
+                        En un sistema binario la primera posición vale "1" y se van multiplicando por 2 cada vez.
+                        <br>
+                        <br>
+                        Ejemplo:<br>
+                        (1111)<br>
+                        (8421)<br>
+                        <br>
+                        Existen convenciones que dicen que <b>cada letra</b> posee un valor numérico como es ASCII, existen códigos binarios que a su vez representan estos números. Por ejemplo:
+                        T=84=1010100 (T es el número 84 y 84 en binario es 1010100).<br><br>
+                        Los <b>documentos de texto</b> en binario son una colección de caracteres que a su vez son ceros y unos que es el lenguaje que la computadora puede entender.<br><br>
+                        Para las <b>imágenes</b> también existen estándares que nos dicen que cada color esta representado en ceros y unos, los videos a su vez on una colección de imágenes, que a su vez son colecciones de colores que si se miran detalladamente son solo unos y ceros que representan cada minúscula parte de un color.<br><br>
+                        La <b>música</b> en computación también esta representada en un sistema binario para que la computadora pueda entenderla y reproducirla.
+                    </P>
+                    </article>
+                </article>
+
                 <h2 class="title-h2-article">Medidas</h2>
                 <H3>Medidas absolutas</H3>
                 <p>Son medidas que no van a cambiar sin importar el tamaño de la pantalla.</p>
