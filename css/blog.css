@@ -100,11 +100,11 @@
 .card-three-article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .card-three__img {
-    width: 370px;
-    height: 260px;
+    max-width: 100%;
     margin: 10px;
 }
 
