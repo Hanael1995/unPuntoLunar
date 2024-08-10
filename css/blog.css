@@ -1,22 +1,11 @@
-.body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: var(--font-general-size);
-    height: 100%;
-}
-
-.cuerpo {
-    display: flex;
-    margin-top: 10rem;
-    flex-direction: column;
-}
 
 .article {
-    margin: 3rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
 }
+
+/* Estilos del titulo y el subtitulo */
 
 .first-title {
     color: var(--first-font-color);
@@ -34,33 +23,7 @@
     text-align: center;
 }
 
-.article ol {
-    margin: 1.5rem;
-}
-
-.article-table {
-    margin: 0.5rem;
-    border: #000000 0.2rem solid;
-    border-collapse: collapse;
-}
-
-.article-table td {
-    border: #000000 0.2rem solid;
-    padding: 0.5rem;
-}
-
-.article-table caption {
-    border: #000000 0.2rem solid;
-    padding: 0.5rem;
-}
-
-.table-img {
-    width: 1.5rem;
-}
-
-.table-img2 {
-    width: 1.5rem;
-}
+/* Estilos de la tabla de contenidos */
 
 .article-contenido {
     display: flex;
@@ -74,7 +37,37 @@
 .title-h2-article {
     font-size: var(--font-subtitle-h2-size);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+.article-list-number {
+    margin: 1.5rem;
+}
+
+/* Estilos de las tablas */
+
+.article-table {
+    margin: 0.5rem;
+    border: #000000 0.2rem solid;
+    border-collapse: collapse;
+}
+
+.article-table__cell {
+    border: #000000 0.2rem solid;
+    padding: 0.5rem;
+}
+
+.article-table__caption {
+    border: #000000 0.2rem solid;
+    padding: 0.5rem;
+}
+
+.table-img {
+    width: 1.5rem;
+}
+
+.table-img2 {
+    width: 1.5rem;
 }
 
 /* Estilos de las tarjetas */
@@ -145,3 +138,5 @@
 }
     
 }
+
+/* Fin estilos de las tarjetas */
