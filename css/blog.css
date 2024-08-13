@@ -74,6 +74,14 @@
     color: aliceblue;
 }
 
+.article-table__icon {
+    background-color: #7ebba9;
+}
+
+.article-table__icon2 {
+    background-color: #bb7e7e;
+}
+
 .table-img {
     width: 1.5rem;
 }
