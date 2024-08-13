@@ -3,6 +3,7 @@
 :root {
     --primary-color: #e63727;
     --secundary-color: #961b10;
+    --third-color: rgb(15, 102, 102);
     --first-font-color: #ffff;
     --secundary-font-color: #000000;
     --font-color-link-hover: rgb(177, 90, 10);

@@ -1,4 +1,3 @@
-
 .article {
     margin: 2rem;
     display: flex;
@@ -47,19 +46,32 @@
 /* Estilos de las tablas */
 
 .article-table {
-    margin: 0.5rem;
-    border: #000000 0.2rem solid;
     border-collapse: collapse;
+    background-color: aliceblue;
 }
 
 .article-table__cell {
-    border: #000000 0.2rem solid;
-    padding: 0.5rem;
+    padding: 1.5rem;
+    border: solid 1px #000;
+}
+
+.article-table__header, .article-table__caption {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--third-color);
+    border-bottom: solid 2px #000;
+    color: aliceblue;
+}
+
+.article-table__link {
+    color: aliceblue;
 }
 
 .article-table__caption {
-    border: #000000 0.2rem solid;
-    padding: 0.5rem;
+    padding: 1.5rem;
+    background-color: var(--third-color);
+    border-bottom: solid 2px #000;
+    color: aliceblue;
 }
 
 .table-img {
