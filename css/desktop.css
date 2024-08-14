@@ -38,7 +38,7 @@
 /* Contenedor Estilos de la caja número 1, compuesta por un texto y un icono, utilizada hasta el momento para la sección de conceptos básicos del home */
 
 .container-two {
-    background-color: rgb(15, 102, 102);
+    background-color: var(--third-color);
     display: flex;
     flex-direction: column;
     color: var(--first-font-color);
@@ -72,7 +72,7 @@
 }
 
 .container-four {
-    background-color: rgb(15, 102, 102);
+    background-color: var(--third-color);
     display: flex;
     flex-direction: column;
     color: var(--first-font-color);

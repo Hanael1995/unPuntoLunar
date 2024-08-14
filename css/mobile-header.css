@@ -28,7 +28,7 @@
 .menu-mobile__icon {
     width: 30px;
     height: 30px;
-    background-color: rgb(15, 102, 102);
+    background-color: var(--third-color);
     position: fixed;
     top: 20px;
     right: 20px;
@@ -42,7 +42,7 @@
     display: block;
     width: 30px;
     height: 3px;
-    background-color: white;
+    background-color: var(--fourth-color);
     position: absolute;
     left: 0;
     transition: 0.3s;

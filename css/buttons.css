@@ -18,32 +18,32 @@
 
 .btn-green {
     color: var(--first-font-color);
-    background-color: rgb(15, 102, 102);
+    background-color: var(--third-color);
 }
 
 .btn-green:hover {
     background-color: rgb(20, 139, 139);
-    color: rgb(255, 255, 255);
+    color: var(--first-font-color);
 }
 
 .btn-green:active {
-    background-color: rgb(15, 102, 102);
-    color: #fcfcfc;
+    background-color: var(--third-color);
+    color: var(--first-font-color);
 }
 
 /* Botón naranja oscuro */
 
 .btn-orange {
     color: var(--first-font-color);
-    background-color: #961b10;
+    background-color: var(--secundary-color);
 }
 
 .btn-orange:hover {
     background-color: #e63727;
-    color: rgb(255, 255, 255);
+    color: var(--first-font-color);
 }
 
 .btn-orange:active {
-    background-color: #961b10;
-    color: #fcfcfc;
+    background-color: var(--secundary-color);
+    color: var(--first-font-color);
 }

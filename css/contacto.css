@@ -30,7 +30,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: var(--fourth-color);
     padding: 10px;
     width: 300px;
     margin: 0 auto;

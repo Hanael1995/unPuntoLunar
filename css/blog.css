@@ -47,7 +47,7 @@
 
 .article-table {
     border-collapse: collapse;
-    background-color: aliceblue;
+    background-color: var(--fourth-color);
 }
 
 .article-table__cell {
@@ -60,18 +60,18 @@
     padding: 1.5rem;
     background-color: var(--third-color);
     border-bottom: solid 2px #000;
-    color: aliceblue;
+    color: var(--first-font-color);
 }
 
 .article-table__link {
-    color: aliceblue;
+    color: var(--first-font-color);
 }
 
 .article-table__caption {
     padding: 1.5rem;
     background-color: var(--third-color);
     border-bottom: solid 2px #000;
-    color: aliceblue;
+    color: var(--first-font-color);
 }
 
 .article-table__icon {
