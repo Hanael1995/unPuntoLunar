@@ -128,7 +128,7 @@
 }
 
 .card-three__content {
-    font-size: 20px;
+    font-size: var(--font-general-size);
     text-align: justify;
     margin: 1.0rem;
 }

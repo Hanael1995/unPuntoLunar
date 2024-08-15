@@ -94,7 +94,7 @@
 .menu-mobile__link {
     color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: var(--font-subtitle-h2-size);
 }
 
 .menu-mobile__toggle:checked ~ .menu-mobile {

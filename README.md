@@ -1,5 +1,5 @@
 # Un Punto Lunar
-Esta es una web de practica sobre programación para practicar HTML, CSS y Javascript. También servirá como proyecto para presentar como validación de los conocimientos adquiridos en el curso.
+Esta es una web de practica sobre programación para practicar HTML y CSS. También servirá como proyecto para presentar como validación de los conocimientos adquiridos en el curso.
 
 El proyecto web se compone de una serie de paginas y subpáginas en las que el tema principal del contenido es la programación; desde conceptos, herramientas y técnicas.
 
@@ -18,8 +18,11 @@ El proyecto web se compone de una serie de paginas y subpáginas en las que el t
 **Colores para el diseño del proyecto:**
 * --primary-color: #e63727;
 * --secundary-color: #961b10;
+* --third-color: rgb(15, 102, 102);
+* --fourth-color: #ffff;
 * --first-font-color: #ffff;
-* --font-color-link-hover: #dd9611;
+* --secundary-font-color: #000000;
+* --font-color-link-hover: rgb(177, 90, 10);
 
 **Tamaños de fuentes**
 * --font-general-size: 1.8rem;
